@@ -34,8 +34,8 @@ const Coin = () => {
         </div>
 
         {coins.map((data, index)=>{
-          return <Coinitem coin={data} key={data.id}/>
-
+          return<Link to=""> <Coinitem coin={data} key={data.id}/>
+</Link>
 })}
         
     </div>
