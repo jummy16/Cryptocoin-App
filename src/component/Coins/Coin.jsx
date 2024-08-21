@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import "./coins.css"
 import axios from "axios"
 import Coinitem from './Coinitem'
+import { Link } from 'react-router-dom'
 
 
 
